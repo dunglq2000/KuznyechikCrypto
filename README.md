@@ -4,11 +4,7 @@
 
 Project contains two parts:
 
-<<<<<<< HEAD
 - Kuznyechik and Magma cipher, which is implemented in C# 8.0 and follow description in [1];
-=======
-- Kuznyechik cipher, which is implemented in C# 8.0 and follow description in [1];
->>>>>>> 93c2174f40aa906df08e772ebb2ea48d406d6128
 - Unit tests for functions and encryption/decryption. All follow examples described in [1].
 
 ## Bibliography
