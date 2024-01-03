@@ -5,10 +5,14 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuznyechikCrypto", "KuznyechikCrypto\KuznyechikCrypto.csproj", "{5C71785B-B496-488F-A06B-B420EAE5F187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuznyechikTests", "KuznyechikTests\KuznyechikTests.csproj", "{D065F0B8-B4C9-43A7-AD31-76B0370B79D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuznyechikTests", "KuznyechikTests\KuznyechikTests.csproj", "{D065F0B8-B4C9-43A7-AD31-76B0370B79D1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5C71785B-B496-488F-A06B-B420EAE5F187} = {5C71785B-B496-488F-A06B-B420EAE5F187}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magma", "Magma\Magma.csproj", "{EB74251C-1C57-4DDB-AE38-1598997280AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagmaTests", "MagmaTests\MagmaTests.csproj", "{FCE48374-DED2-4EF2-8C20-8FDCE041DCCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +28,14 @@ Global
 		{D065F0B8-B4C9-43A7-AD31-76B0370B79D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D065F0B8-B4C9-43A7-AD31-76B0370B79D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D065F0B8-B4C9-43A7-AD31-76B0370B79D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB74251C-1C57-4DDB-AE38-1598997280AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB74251C-1C57-4DDB-AE38-1598997280AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB74251C-1C57-4DDB-AE38-1598997280AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB74251C-1C57-4DDB-AE38-1598997280AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE48374-DED2-4EF2-8C20-8FDCE041DCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE48374-DED2-4EF2-8C20-8FDCE041DCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE48374-DED2-4EF2-8C20-8FDCE041DCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE48374-DED2-4EF2-8C20-8FDCE041DCCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
